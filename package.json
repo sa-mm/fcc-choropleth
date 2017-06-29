@@ -1,0 +1,30 @@
+{
+  "name": "choropleth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "choropleth.js",
+  "standard": {
+    "globals": [
+      "d3",
+      "topojson"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "serve . & livereload ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa-mm/fcc-choropleth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa-mm/fcc-choropleth/issues"
+  },
+  "homepage": "https://github.com/sa-mm/fcc-choropleth#readme",
+  "devDependencies": {
+    "livereload": "^0.6.2",
+    "serve": "^6.0.0"
+  }
+}
